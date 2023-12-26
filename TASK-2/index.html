@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/135ad0a08e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-list">
+        <input class="d1" type="button" onclick="deleteSelectedItem()" value="Delete Selected Items">
+        <input class="d2" type="button" onclick="deleteAllItem()" value="Delete All">
+        <h1>To Do List</h1>
+        <form action="" id="form">
+            <div class="input">
+            <input type="text" id="value" class="add-input-box" placeholder="Please enter to add task">
+            <input type="submit" id="submit">
+            <label for="submit"><i class="fa-solid fa-plus" ></i></label>
+        </form>
+    </div>
+    <div id="list"></div>
+    <script src="main.js"></script>
+</body>
+</html>
